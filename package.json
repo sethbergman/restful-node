@@ -1,0 +1,31 @@
+{
+  "name": "restful-node",
+  "version": "0.0.0",
+  "description": "Getting Started with Express, MongoDB and Handlebars",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sethbergman/restful-node"
+  },
+  "author": "Seth Bergman <seth.atxwebs@gmail.com> (http://sethbergman.com/",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "consolidate": "^0.14.0",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "handlebars": "^4.0.5",
+    "jade": "~1.11.0",
+    "mongodb": "^2.1.7",
+    "monk": "^1.0.1",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
